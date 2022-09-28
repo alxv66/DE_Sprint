@@ -58,7 +58,7 @@ if __name__ == '__main__':
                             'salary': salary_text,
                             'region': region_text,
                         })
-                        with open('1_3_1_hh.json.txt', 'w') as outfile:
+                        with open('1_3_1_hh.json', 'w') as outfile:
                             json.dump(res, outfile, ensure_ascii=False, indent=4)
         else:
             print(f'Error: HTTP {page_resp.status_code}')

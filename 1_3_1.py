@@ -18,7 +18,7 @@ if __name__ == '__main__':
         'data': [],
     }
 
-    for page in range(100, max_pages):
+    for page in range(0, max_pages):
         page_url = url_mask + str(page)
         page_resp = requests.get(page_url, headers=headers)
         print(f'{page+1} - {page_resp.status_code}')

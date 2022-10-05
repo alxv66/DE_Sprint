@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 
 if __name__ == '__main__':
     url_mask = 'https://hh.ru/search/vacancy?search_field=name&search_field=description&text=python+%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA&items_on_page=15&hhtmFrom=vacancy_search_list&page='
-    max_pages = 2
+    max_pages = 150
 
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',
